@@ -114,7 +114,7 @@ Berikut merupakan perbandingan kurva loss selama proses training.
      - Sumbu Y: Loss
 -->
 
-![Perbandingan Training Loss SGD vs Adam](./images/Training_result.jpeg)
+![Perbandingan Training Loss SGD vs Adam](../images/training.png)
 
 ---
 
