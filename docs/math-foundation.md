@@ -89,22 +89,17 @@ Backpropagation menggunakan konsep turunan berantai (*chain rule*) untuk menghit
 
 Secara sederhana:
 
-[
+$$
 \frac{\partial L}{\partial W}
-]
+$$
 
 menunjukkan bagaimana perubahan weight mempengaruhi nilai loss.
 
 Karena neural network terdiri dari banyak fungsi yang saling terhubung, maka gradient dihitung menggunakan chain rule:
 
-[
-\frac{dL}{dW} =
-\frac{dL}{da}
-\cdot
-\frac{da}{dz}
-\cdot
-\frac{dz}{dW}
-]
+$$
+\frac{dL}{dW} = \frac{dL}{da} \cdot \frac{da}{dz} \cdot \frac{dz}{dW}
+$$
 
 Proses inilah yang memungkinkan error dari layer terakhir mengalir kembali ke layer sebelumnya.
 
